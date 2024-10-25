@@ -1,0 +1,738 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #c5322b;
+    padding: 15px 30px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.section-man {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.685)), url(./menu-section.webp);
+    background-repeat: no-repeat;
+    /* clip-path: circle(56% at 48% 0); */
+    background-size: cover;
+    background-clip: unset;
+    padding-top: 200px;
+    font-size: 20px;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.section1 h1 {
+    font-family: cursive;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.down {
+    position: relative;
+    
+}
+
+.contener {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sectoin-1 {
+    text-align: center;
+    color: #dc3545;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #737373;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.sectoin-1 h2 {
+    font-size: 50px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.menu-table div {
+    border: solid 1px black;
+    padding: 30px;
+
+}
+
+
+
+.menu-table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-table h2 {
+    color: #000;
+}
+
+.tabalecontent {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.tabale-items {
+    margin-top: 20px;
+    display: block;
+    border: dashed 2px black;
+    padding: 10px;
+}
+
+.tabale-items h3 {
+    font-size: 40px;
+}
+
+.tabale-items p {
+    font-size: 20px;
+}
+
+.fa-sharp-duotone {
+    padding-left: 80%;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.tabale-itams2 h3 {
+    font-size: 40px;
+}
+
+.tabale-itams2 p {
+    font-size: 20px;
+}
+
+.fa-sharp-duotone {
+    color: red;
+    font-size: 40px;
+   
+}
+
+footer {
+    background-image: url(./1600x810\ doodle\ footer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1 span {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+
+.social-media {
+    display: flex;
+    gap: 40px;
+}
+
+footer .logo {
+    width: 30%;
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.footer-cotent {
+    color: #959595;
+    font-size: 17px;
+    line-height: 31px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+
+.footer-cotent a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer .hr {
+    border-top: dotted 1px white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.bootom-cotent {
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.foo-ic {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+/*about*/
+
+
+<!--about-section-->
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #c5322b;
+    padding: 10px 30px;
+
+}
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    font-weight: bold;
+}
+.section-rnw {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.685)), url(./ajays-section.jpg);
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 71%, 85% 77%, 54% 82%, 24% 81%, 0 73%, 0% 35%, 0 0);
+    background-size: cover;
+    background-clip: unset;
+    padding-top: 200px;
+    font-size: 20px;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.section1-row h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    
+}
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.uper{
+    position: relative;
+    top: 118px;
+   
+}
+.section2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.section2-row{
+    display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.about-content  h2{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    color: #d20d20;
+    margin-bottom: 15px;
+}
+.about-content  p{
+    font-family: 'Baloo Bhai 2', cursive;
+  
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #737373;
+    font-weight: 400;
+}
+.about-content{
+    width: 500px;
+}
+.cartton1{
+    border-radius: 50px;
+}
+.signature h4{
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+
+
+}
+.about-content  span{
+    font-family: 'Baloo Bhai 2', cursive;
+  
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #737373;
+    font-weight: 400;
+}
+.section3-row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.section3{
+    background-color: #C5322B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section3 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.section3 h3{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.section4 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center  ;
+}
+.section4 p{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    font-size: 20px;
+ line-height: 50px;
+ text-align: center;
+}
+.section4{
+  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section5{
+  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section5 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #d20d20;
+    font-size: 40px;
+     
+    margin-bottom: 15px;
+}
+footer{
+    background-image: url(./1600x810\ doodle\ footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1 span{
+    color: white;
+    font-weight: bolder; font-size: 30px;
+    text-transform: capitalize;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.social-media-icon{
+    display: flex;
+    gap: 40px;
+}
+footer .logo{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footer-cotent{
+    color: #959595;
+    font-size: 17px;
+    line-height: 31px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.footer-cotent a {
+    color: white    ;
+    text-decoration: none;
+    
+}
+footer .hr{
+   border-top: dotted 1px white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+.bootom-cotent{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+   text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.foo-ic{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+
+/*careers*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #c5322b;
+    padding: 10px 30px;
+
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.section1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.685)), url(./career.jpg);
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 71%, 85% 77%, 54% 82%, 24% 81%, 0 73%, 0% 35%, 0 0);
+    background-size: cover;
+    background-clip: unset;
+    padding-top: 200px;
+    font-size: 20px;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.section1 h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.danger{
+    padding-top: 5px;
+}
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.down{
+    position: relative;
+}
+
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.down {
+    position: relative;
+    top: 118px;
+}
+.mmm-box{
+    border: solid 1px black;
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.section2 h2{
+    font-family: sans-serif;
+   
+    color: red;
+    font-size: 22px;
+    margin-bottom: 20px;
+ 
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+   
+}
+.section2 span{
+    color: #737373;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: sans-serif;
+   
+}
+.span-box span{
+ 
+    color: #52060a;
+    background-color: #e5a7aa42;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Baloo Bhai 2', cursive
+}
+.section2 button{
+    background-color: #dc3545;
+    border-color: blueviolet;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: capitalize;
+  font-size: 19px;
+    padding: 5px 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+.aspire-1{
+    margin-top: 38px;
+}
+.charset1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.section2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer{
+    background-image: url(./1600x810\ doodle\ footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1 span{
+    color: white;
+    font-weight: bolder; font-size: 30px;
+    text-transform: capitalize;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.social-media{
+    display: flex;
+    gap: 40px;
+}
+footer .logo{
+    width: 30%;
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footer-cotent{
+    color: #959595;
+    font-size: 17px;
+    line-height: 31px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.footer-cotent a {
+    color: white    ;
+    text-decoration: none;
+    
+}
+footer .hr{
+   border-top: dotted 1px white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+.bootom-cotent{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+   text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.foo-ic{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
